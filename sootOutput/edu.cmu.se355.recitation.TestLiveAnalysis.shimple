@@ -1,0 +1,91 @@
+public class edu.cmu.se355.recitation.TestLiveAnalysis extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void test1()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+        byte b0, b1, b2, b3, b4;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        b1 = 2;
+
+        b2 = b1;
+
+        b3 = 3;
+
+        b4 = 4;
+
+        b0 = b3;
+
+        return;
+    }
+
+    public void test2()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+        byte b0, b1, b3;
+        int i2;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        b0 = 5;
+
+        b1 = 3;
+
+        i2 = b0 + b1;
+
+        b3 = 2;
+
+        return;
+    }
+
+    public void test3()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+        byte b0, b1;
+        int i2, i3, i4, i5;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        b0 = 0;
+
+        b1 = 3;
+
+        i2 = b0 + 1;
+
+        i3 = b1 + i2;
+
+        i4 = i2 * 2;
+
+        if i4 >= 9 goto label1;
+
+        i5 = i4 + 1;
+
+     label1:
+        return;
+    }
+
+    public void main(java.lang.String[])
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+        java.lang.String[] r1;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        r1 := @parameter0: java.lang.String[];
+
+        return;
+    }
+}

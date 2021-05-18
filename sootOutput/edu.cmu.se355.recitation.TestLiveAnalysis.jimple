@@ -1,0 +1,61 @@
+public class edu.cmu.se355.recitation.TestLiveAnalysis extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void test1()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        return;
+    }
+
+    public void test2()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        return;
+    }
+
+    public void test3()
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+        int i2, i4;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        i2 = 0 + 1;
+
+        i4 = i2 * 2;
+
+        if i4 >= 9 goto label1;
+
+     label1:
+        return;
+    }
+
+    public void main(java.lang.String[])
+    {
+        edu.cmu.se355.recitation.TestLiveAnalysis r0;
+        java.lang.String[] r1;
+
+        r0 := @this: edu.cmu.se355.recitation.TestLiveAnalysis;
+
+        r1 := @parameter0: java.lang.String[];
+
+        return;
+    }
+}
